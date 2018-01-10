@@ -45,9 +45,16 @@
 		{
 			clear: both;
 			background-color:  #8c8c8c;
-		    color: white;
+		  color: white;
 			text-align: center;
 			padding: 20px;
+		}
+		#tabela
+		{
+			 border-style: solid;
+			border:1px;
+			cellpadding:2px;
+			margin-top:150px;
 		}
 		.option
 		{
