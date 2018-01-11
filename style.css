@@ -1,6 +1,7 @@
 	body
 	{
 		font-family: 'Raleway', sans-serif;
+		margin:0;
 	}
 	#container
 	{
@@ -17,7 +18,7 @@
 		font-weight: 700;
 
 		}
-		#nav
+		nav
 		{
 			float: left;
 			background-color:  #80dfff;
@@ -35,13 +36,8 @@
 			background-color: #9A9ABB;
 			text-align: justify;
 			}
-		#ad
-		{
-			float: left;
-			width:200px;
-			min-height: 670px;
-		}
-		#footer
+
+		footer
 		{
 			clear: both;
 			background-color:  #8c8c8c;
@@ -80,4 +76,36 @@
 		{
 			background-color: white;
 			text-decoration: none;
+		}
+		aside
+		{
+			float: left;
+			width:200px;
+			min-height: 670px;
+		}
+		figure.obraz
+		{
+			margin-top: 20px;
+			float: left;
+
+		}
+
+		.zlodziejka
+		{
+			float: left;
+			width:200px;
+		}
+
+		figure.obraz2
+		{
+			margin-top: 20px;
+			clear:both;
+			width:140px;
+
+		}
+
+		.lalka
+		{
+			display: inline-block;
+			width:200px;
 		}
