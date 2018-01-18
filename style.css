@@ -47,21 +47,46 @@
 		}
 		#tabela
 		{
-			 border-style: solid;
+			border-collapse: collapse;
+	 		width: 100%;
+			border-style: solid;
 			border:1px;
 			cellpadding:2px;
 			margin-top:150px;
 		}
-		.option
+		#tabela td, #tabela th
+		{
+			border: 1px solid #ddd;
+    	padding: 8px;
+		}
+		#tabela tr:nth-child(even){background-color: #f2f2f2;}
+		#tabela tr:nth-child(odd){background-color: #d2d2e0;}
+
+		#tabela tr:hover {background-color: #b190d5;}
+		#tabela th
+		{
+	    padding-top: 12px;
+	    padding-bottom: 12px;
+	    text-align: left;
+	    background-color:  #8d24e2 ;
+	    color: white;
+		}
+
+		#title
+		{
+			text-align: center;
+		}
+
+		[class|=option]
 		{
 			font-size: 18px;
 			padding: 10px;
-
 		}
 		.option:hover
 		{
 			background-color: #ccf2ff;
 		}
+
 		a:link
 		{
 			color:black;
@@ -87,6 +112,7 @@
 		{
 			margin-top: 20px;
 			float: left;
+			width:100px;
 
 		}
 
@@ -96,16 +122,25 @@
 			width:200px;
 		}
 
-		figure.obraz2
-		{
-			margin-top: 20px;
-			clear:both;
-			width:140px;
 
-		}
 
 		.lalka
 		{
-			display: inline-block;
+			float:left;
 			width:200px;
+
 		}
+		.obraz:hover
+		{
+			 transform: scale(1.3,1.3);
+			 opacity: .85;
+			 transition-timing-function: ease-out;
+			 transition-duration: 250ms;
+			 position: relative;
+	  }
+		p::first-letter
+		{
+    	font-size: xx-large;
+		}
+
+	
