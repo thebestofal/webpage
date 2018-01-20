@@ -108,7 +108,7 @@
 			width:200px;
 			min-height: 670px;
 		}
-		figure.obraz
+		figure.obraz, figure.piktogram
 		{
 			margin-top: 20px;
 			float: left;
@@ -142,5 +142,16 @@
 		{
     	font-size: xx-large;
 		}
-
-	
+		#mail
+		{
+			margin-top: 30px;
+			display: inline-block;
+		}
+		div p
+		{
+			font-size: 18px;
+		}
+		figure + div
+		{
+			color: white;
+		}
